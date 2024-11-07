@@ -1,0 +1,22 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+  --content-background: #f0f0f0;
+}
+
+.dark {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --content-background: #1e1e1e;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.content {
+  background-color: var(--content-background);
+  padding: 20px;
+  border-radius: 5px;
+}
